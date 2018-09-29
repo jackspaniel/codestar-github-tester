@@ -7,7 +7,7 @@ exports.get = function(event, context, callback) {
   var contents = fs.readFileSync(`public${path.sep}index.html`);
   var result = {
     statusCode: 200,
-    body: contents.toString(),
+    body: '<!-- test -->\n' + contents.toString(),
     headers: {'content-type': 'text/html'}
   };
 
