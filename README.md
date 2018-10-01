@@ -1,5 +1,5 @@
-Welcome to the AWS CodeStar sample web application
-==================================================
+Welcome to the AWS CodeStar sample web application XX
+================================================== 
 
 This sample code helps get you started with a simple Node.js web service deployed by AWS CloudFormation to AWS Lambda and Amazon API Gateway.
 
